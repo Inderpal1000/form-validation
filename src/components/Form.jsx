@@ -105,7 +105,7 @@ const Form = () => {
                     <div className='my-2'>
                         <label className='font-semibold text-lg' htmlFor="phone">Phone Number</label>
                         <input className='w-full border border-violet-500 p-2 rounded-sm font-semibold text-md focus:border-violet-500 focus:outline-none'
-                            onChange={handleChange} value={formValues.phone} type="number" id='phone' name='phone' placeholder='Enter Phone Number' />
+                            onChange={handleChange} value={formValues.phone} type="number" id='phone' name='phone' placeholder='Enter Phone Number' maxLength={10}/>
                     </div>
 
                     <div className='my-2'>
